@@ -1,0 +1,20 @@
+{
+  "name": "solahtracker",
+  "version": "1.0.0",
+  "description": "A simple Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . solahtracker --platform=win32 --arch=x64 --out=dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^34.3.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.1"
+  }
+}
